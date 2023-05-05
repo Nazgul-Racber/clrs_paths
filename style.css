@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 83, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  /* background-color: black; */
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 65px;
+  margin-top: 25px;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin-bottom: 35px;
+}
+.text h3 {
+  display: inline-block;
+}
+
+.card {
+  /* border: 2px solid tomato; */
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: 15px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.308);
+  margin-bottom: 15px;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.37);
+}
+
+.img {
+  width: 30%;
+  text-align: center;
+  background-color: aqua;
+}
+
+.img img {
+  padding: 5px;
+  float: left;
+  width: 100%;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.img img:hover {
+  width: 500px;
+  height: 300px;
+}
+
+/*text */
+.card h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 1px rgba(255, 255, 255, 0.37);
+}
+
+p {
+  font-family: "Bebas Neue", cursive;
+  text-align: justify;
+  color: white;
+  font-weight: 300;
+  text-indent: 1rem;
+  width: 80%;
+}
+
+button {
+  float: right;
+  margin-top: 50px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: coral;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button a:hover {
+  color: black;
+}
